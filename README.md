@@ -3,7 +3,7 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.0.
 
 ## Live demo
-Check out the live demo [Angular-counter](https://angular-counter.netlify.app/)
+Check out the live demo [Angular-counter](https://angular-counter.netlify.app/).
 
 ## Development server
 
