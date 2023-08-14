@@ -2,9 +2,24 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
+  template:
+  `
+  <div>
+    <h1>{{count}}</h1>
+    <button (click)="incrementCount()">
+      Add
+    </button>
+  </div>
+  `,
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'ng-counter';
+
+  count: number = 0;
+
+  incrementCount(){
+    this.count ++;
+  }
+  
 }
+
